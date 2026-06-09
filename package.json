@@ -1,0 +1,32 @@
+{
+  "name": "halalscreener-mcp",
+  "version": "1.0.1",
+  "description": "Local MCP server for HalalScreener — the read-only Shariah (halal) compliance layer for AI agents. Thin stdio proxy to the hosted HalalScreener MCP.",
+  "type": "module",
+  "bin": {
+    "halalscreener-mcp": "index.mjs"
+  },
+  "files": [
+    "index.mjs",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "halal",
+    "shariah",
+    "islamic-finance",
+    "aaoifi",
+    "stock-screening",
+    "claude",
+    "cursor"
+  ],
+  "license": "MIT",
+  "homepage": "https://halalscreener.app/en/mcp",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.26.0"
+  }
+}
